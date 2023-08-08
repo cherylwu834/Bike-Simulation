@@ -8,8 +8,8 @@ pygame.init() #initialize pygame
 
 
 #PARAMETERS
-INIT_BIKE_VELOCITY = 10 #initial velocity of the bike in m/s
-WIND_VELOCITY = 0 #velocity of the wind in m/s
+INIT_BIKE_VELOCITY = 15 #initial velocity of the bike in m/s
+WIND_VELOCITY = -2 #velocity of the wind in m/s, positive means tailwind, negative means headwind
 BIKE_MASS = 9 #mass of the bike in kg
 PERSON_MASS = 58 #mass of the person in kg
 
